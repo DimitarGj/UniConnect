@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background-image: url(../public/images/Background.jpeg);
+  image-rendering: auto;
+  background-color: navy;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: black;
+  font: normal 18px/1.5 "Fras Sans", "Helvetica Neue", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ccsContainer {
+  padding: 50px;
+  color: black;
+  text-align: center;
+  max-width: 800px;
+  flex-grow: row wrap;
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  background: white;
+}
+
+.options {
+  width: 90%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 10%;
+}
+
+.student {
+  width: 30%;
+  height: 30px;
+  color: #333;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  border: 1px solid;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+.organization {
+  width: 30%;
+  height: 30px;
+  color: #333;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  border: 1px solid;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+.student:hover, .organization:hover {
+  background: darkblue;
+  color: white;
+  transition: 0.5s;
+}

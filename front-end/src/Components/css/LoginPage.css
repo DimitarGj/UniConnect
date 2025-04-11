@@ -1,0 +1,125 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh; 
+  background-image: url(../public/images/Background.jpeg);
+  image-rendering: auto;
+  background-color: navy;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: black;
+  font: normal 18px/1.5 "Fras Sans", "Helvetica Neue", sans-serif;
+}
+
+.loginContainer h1, .loginContainer h3, .loginContainer label {
+    color: black;
+}
+
+.welcomeLogin {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column wrap;
+}
+
+.loginContainer {
+  max-width: 500px;
+  margin: auto auto;
+  padding: 50px;
+  border-radius: 5px;
+  background: white;
+  display:flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+input[type="text"], input[type="password"] {
+  padding: 15px;
+  margin: 10px auto;
+  display: block;
+  border-radius: 5px;
+  border: 1px solid lightgrey;
+  background: none;
+  width: 50%;
+  color: black;
+  font-size: 16px;
+}
+
+.required {
+  border: 2px solid red !important;
+  color: black;
+  transition: 0.5s;
+}
+
+.email:hover, .password:hover {
+  border: 1px solid darkblue;
+  color: black;
+  transition: 0.5s;
+}
+
+input[type="text"]:focus, input[type="password"]:focus {
+  outline: none;
+}
+
+.flex-inner {
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+}
+
+.login {
+  background-color: #333;
+  color: #f2f2f2;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin: 10px auto;
+  display: block;
+  width: 40%;
+  height: 40px;
+  border: 1px solid;
+  border-radius: 25px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.login:hover {
+  background: darkblue;
+  color: #e9f4fb;
+  transition: 0.5s;
+}
+
+.options {
+  width: 80%;
+  margin: 15px auto;
+}
+
+.forgot {
+  width: 150px;
+  color: #333;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  padding: 8px 15px;
+  border: 1px solid;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+.create {
+  width: 150px;
+  color: #333;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  float: right;
+  padding: 8px 15px;
+  border: 1px solid;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+.create:hover, .forgot:hover {
+  background: darkblue;
+  color: #e9f4fb;
+  transition: 0.5s;
+}

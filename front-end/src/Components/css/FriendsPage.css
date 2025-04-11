@@ -1,0 +1,37 @@
+.friendsPageContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.friendsPage {
+    margin-top: 70px;
+    height: 90vh;
+    background-color: white;
+    overflow:auto;
+    width: 50vw;
+}
+
+.friendsPage h1 {
+    padding-left: 10px;
+    color: #4070f4;
+    font-family: "Poppins", sans-serif;
+}
+
+.friendsPageContainer table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.friendsPageContainer th, .friendsPageContainer td {
+    text-align: left;
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.profilePicFriendsPage {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}

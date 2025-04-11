@@ -1,0 +1,73 @@
+.largeCalendarPageContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90vw; 
+}
+  
+.largeCalendarPageContainer .monthNavigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%; 
+    max-width: 1200px;
+    margin: 0 auto; 
+    padding: 20px;
+    box-sizing: border-box;
+}
+  
+.largeCalendarContainer {
+    display: flex;
+    flex-direction: column;
+    width: 80%; 
+    max-width: 1200px; 
+    margin: 0 auto; 
+}
+  
+.largeCalendarPageContainer .weekDays {
+    display: flex;
+    justify-content: space-between; 
+    text-align: center;
+}
+  
+.largeCalendarPageContainer .weekDay, .largeCalendarPageContainer .dayTile {
+    flex-grow: 1;
+    flex-basis: calc(100% / 7 - 2px); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+}
+  
+.largeCalendarPageContainer .dayTile {
+    background-color: #fff;
+    height: 100px; 
+    width: 8vw;
+    margin: 2px; 
+}
+  
+.largeCalendarPageContainer .dayTile.past {
+    background-color: lightblue; 
+}
+  
+.largeCalendarPageContainer .dayTile.current {
+    background-color: #add8e6; 
+}
+  
+.largeCalendarPageContainer .dayTile:hover {
+    cursor: pointer;
+    background-color: #cccccc; 
+}
+  
+@media (max-width: 768px) {
+    .largeCalendarPageContainer .monthNavigation, .largeCalendarContainer {
+        width: 95%; 
+    }
+
+    .largeCalendarPageContainer .weekDay, .largeCalendarPageContainer .dayTile {
+        height: 80px; 
+    }
+}
+  

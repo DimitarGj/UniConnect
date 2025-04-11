@@ -1,0 +1,53 @@
+.miniCalendar {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    cursor: pointer;
+    width: 0%;    
+}
+  
+.weekDays {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    text-align: center;
+    font-weight: bold;
+    font-size: 0.75rem;
+}
+
+.weekDay {
+    padding-left: 13px;
+}
+  
+.daysGrid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-column-gap: 14px;
+    grid-row-gap: 5px;
+    padding-left: 14px;
+    padding-top: 4px;
+}
+
+.dayTile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    width: 23px;
+    height: 20px;
+    line-height: 20px;
+    font-size: 0.75rem;
+
+}
+
+.dayTile.past {
+    background-color: lightblue; 
+}
+
+.dayTile.current {
+    background-color: #0096c7; 
+    color: white;
+}
+
+.dayTile.empty {
+    background-color: transparent;
+}

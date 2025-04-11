@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+:root {
+  --white-color: #fff;
+  --blue-color: #4070f4;
+  --grey-color: #707070;
+  --grey-color-light: #aaa;
+}
+
+.Sidebar-Left {
+  height: 100%;
+  width: 300px;
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  left: 0;
+  padding-top: 90px;
+  padding-left: 10px;
+  background-color: var(--white-color);
+  border: 1px solid black;
+}
+
+.Sidebar-Left label {
+  padding: 8px 8px 8px 16px;
+  text-decoration: none;
+  font-size: 18px;
+  color: var(--blue-color);
+  display: block;
+}
+
+.homePageContainer{
+  overflow: scroll;
+  background-color: white;
+  height: 100vh;
+  width: 100vw;
+  padding-left: 10%;
+  margin-top: 5px;
+  padding-top: 100px;
+  overflow-x:hidden;
+}
+
+
+
+.createPostButton:hover {
+  cursor: pointer;
+}
+
+.posts{
+  margin-right:20%;
+  padding: 1%;
+  display:flex;
+  flex-direction: column;
+  align-items:center;
+  justify-content: flex-start;
+  position: relative;
+  width: 100%;
+  z-index: 0;
+}
+
+.posts::before {
+  content: "";
+  position: absolute;
+  margin-top: -40px;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 170%;
+  height: 100%;
+  background-image: url(../public/images/Background.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; 
+  opacity: 0.25;
+  background-position-x: fixed;
+  z-index: 0;
+}
+
+.Sidebar-Right {
+  height: 100%;
+  width: 220px;
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  right: 0;
+  padding-top: 90px;
+  padding-left: 10px;
+  background-color: white;
+  border: 1px solid black;
+}
+
+
+.Sidebar-Right label {
+  padding: 8px 8px 8px 6px;
+  text-decoration: none;
+  font-size: 18px;
+  color: var(--blue-color);
+  display: block;
+  
+}
+
+.Sidebar-Left label:hover,
+.Sidebar-Right label:hover {
+  color: #4070f4;
+  text-shadow: 0 0 10px #4070f4;
+}
+
+.createPostButton {
+  width: 6vw;
+  height: 6vh;
+  position: relative;
+  border: none;
+  border-radius: 10%;
+  background-color: rgb(0, 191, 255);
+  color: black;
+  font-family: "Poppins", sans-serif;;
+  font-size: calc(0.2em + 1vw);
+  margin-bottom: 10px;
+  margin-top: -20px;
+  z-index: 9;
+}
+
+.createPosts {
+  display: flex;
+  justify-content: flex-end;
+  background-color: #4070f400;
+}
+
+.createPostButton:hover {
+  background-color:  rgb(0, 131, 175);
+  color:white;
+
+}

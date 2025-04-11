@@ -1,0 +1,49 @@
+.postItem {
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 5%;
+    color: black;
+    background-color:  #ffffff;
+    border-style: solid;
+    border-color: black;
+    opacity: 1;
+    width: 40em;
+}
+
+
+.postHeader {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    background-color:  #ffffff;
+}
+
+.profilePic {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-right: 10px;
+    object-fit: cover;
+}
+
+.userName {
+    font-weight: bold;
+    background-color:  #ffffff;
+}
+
+.postContentDiv {
+    margin-left: 20px;
+}
+.postContentP{
+    background-color:  #ffffff;
+}
+
+.postName{
+    background-color: #ffffff;
+}
+
+.timeStamp {
+    color: darkgray;
+    font-size: 11px;
+    float: right;
+}

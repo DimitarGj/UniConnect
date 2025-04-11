@@ -1,0 +1,104 @@
+.Title {
+  border: 2px solid #ddd;
+  background-color: rgb(238, 238, 238);
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.Description {
+  font-weight: normal;
+  font-size: 24px;
+  border: 2px solid #000000;
+  margin: 10px 0; 
+  padding: 10px; 
+}
+
+.Responses {
+  border: 1px solid #000000;
+  font-size: 16px;
+  width: 100%;
+  margin-top: 10px; 
+  max-height: 500px;
+}
+
+.DiscussionContent {
+  width: 100%;
+}
+
+.Responses > div {
+  border: 1px solid #0000;
+}
+
+.ResponseBox {
+  border: 1px solid #0000;
+  padding: 10px;
+}
+
+.ReplyBox {
+  border: 1px solid #0000;
+  padding: 10px;
+}
+
+.RoundButton {
+  border: 2px solid #000000;
+  background-color: rgb(238, 238, 238);
+  font-size: 16px;
+  font-weight: bold;
+  padding: 8px 16px;
+  margin-right: 10px;
+  border-radius: 5px; 
+}
+
+.ReplyInputContainer {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.ReplyInput {
+  flex: 1;
+  height: 40px; 
+  border: 2px solid #000000;
+  border-radius: 5px; 
+  padding: 8px; 
+  font-size: 16px;
+  margin-right: 10px; 
+}
+
+.CategorySection {
+  margin-bottom: 20px;
+  padding: 10px; 
+}
+
+.CategoryHeader {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 10px; 
+}
+
+.GradeThreads {
+  background-color: #64b5f6; 
+  border: 2px solid #64b5f6; 
+}
+
+.HomeworkThreads {
+  background-color: #64b5f6; 
+  border: 2px solid #64b5f6;
+}
+
+.ProjectThreads {
+  background-color: #64b5f6;
+  border: 2px solid #64b5f6; 
+}
+
+.ScrollableContainer {
+  max-height: 500px; 
+  overflow-y: auto;
+}
+
+.discussion-threads {
+  max-height: 500px; 
+  overflow-y: auto;
+  font-size: x-small;
+}
