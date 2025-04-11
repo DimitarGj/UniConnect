@@ -1,7 +1,7 @@
 # UniConnect
 
 
-Project fr CS 440 - Software Engineering I
+Project for CS 440 - Software Engineering I
 
 Contributors: Syed Mehdi, Oscar Franco, Syed Shaban, Dimitar Gjorgievski
 
