@@ -1,11 +1,8 @@
-# UniConnect
-
+# UniConnect - Social Platform for Students at UIC
 
 Project for CS 440 - Software Engineering I
 
 Contributors: Syed Mehdi, Oscar Franco, Syed Shaban, Dimitar Gjorgievski
-
-Social Platform for Students at UIC
 
 # Motivation
 
